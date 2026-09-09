@@ -1,0 +1,6 @@
+{
+  "name": "Propiedad en Venta: Casa 2 Dormitorios, Cochera y Local Comercial",
+  "description": "Landing page de alta conversión para la venta de propiedad mixta: casa de 2 dormitorios, cochera y local comercial con fotos profesionales, ubicación y contacto directo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
