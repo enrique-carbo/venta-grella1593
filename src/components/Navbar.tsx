@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenVisitModal, onOpenDossierM
   ];
 
   const handleWhatsAppClick = () => {
-    const message = encodeURIComponent('¡Hola! Me comunico desde la web para consultar por la propiedad con Casa 2 Dormitorios + Cochera + Local Comercial (Ref: PROP-2D-LOC-920). Quisiera más información y coordinar una visita.');
+    const message = encodeURIComponent('¡Hola! Me comunico desde la web para consultar por la propiedad con Casa 2 Dormitorios + Cochera + Local Comercial. Quisiera más información y coordinar una visita.');
     window.open(`https://wa.me/${PROPERTY_INFO.contact.whatsappNumber.replace(/[^0-9]/g, '')}?text=${message}`, '_blank');
   };
 
