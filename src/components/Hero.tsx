@@ -129,7 +129,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenVisitModal, onOpenDossierModal
                     Acceso independiente para la casa residencial y frente vidriado para el local comercial.
                   </p>
                   <div className="text-[10px] font-bold uppercase tracking-widest text-black flex items-center gap-1">
-                    <span>Ver galería completa (9 fotos HD)</span>
+                    <span>Ver galería completa</span>
                     <ArrowRight className="w-3 h-3" />
                   </div>
                 </div>
