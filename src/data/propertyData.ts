@@ -1,15 +1,19 @@
 import { PropertyImage, PropertyFeature, Amenity, NearbyPoint, FaqItem, FloorPlanZone } from '../types';
 
-import facadeImg from '../assets/images/Vivienda-LocalComercial.jpeg';
+import facadeImg from '../assets/images/Grella1593-mb1.jpeg';
+import facadeImg1 from '../assets/images/Grella1593_exterior.jpg';
+import facadeImg2 from '../assets/images/Grella1593_exterior1.jpg';
 import commercialImg from '../assets/images/LocalComercial.jpg';
 import livingImg from '../assets/images/living-amplio.jpg';
 import kitchenImg from '../assets/images/Grella1593-Cocina.jpg';
-import bedroomImg from '../assets/images/house_master_bedroom_1788626129979.jpg';
-import bedroomImg2 from '../assets/images/dormitorio-chico.jpg';
+import bedroomImg from '../assets/images/dormitorio-anterior.jpg';
+import bedroomImg2 from '../assets/images/dormitorio-posterior1.jpg';
 import bano from '../assets/images/bano.jpg';
 import garagePatioImg from '../assets/images/Grella1593-CocheraInterior1.jpg';
 import parrillaImg from '../assets/images/parrilla.jpg';
 import comedorImg from '../assets/images/comedor.jpg';
+import planoTerrenoImg from '../assets/images/plano_terreno.jpg';
+import planoViviendaImg from '../assets/images/plano_vivienda_sm.jpg';
 
 export const PROPERTY_INFO = {
   referenceCode: 'PROP-GRELLA-1593',
@@ -48,6 +52,23 @@ export const PROPERTY_IMAGES: PropertyImage[] = [
     alt: 'Fachada frontal completa de la propiedad en esquina',
     description: 'Frente con accesos independientes: entrada comercial a la calle y portón cochera.',
     isFeatured: true
+  },
+  {
+    id: 'img-1.1',
+    title: 'Fachada',
+    category: 'exterior',
+    categoryLabel: 'Fachada y Exterior',
+    url: facadeImg1,
+    alt: 'Fachada de la propiedad',
+    description: 'Frente zona de portón cochera.',
+  },{
+    id: 'img-1.2',
+    title: 'Fachada',
+    category: 'exterior',
+    categoryLabel: 'Fachada y Exterior',
+    url: facadeImg2,
+    alt: 'Fachada de la propiedad',
+    description: 'Frente ingreso por puerta principal.',
   },
   {
     id: 'img-2',
@@ -125,6 +146,24 @@ export const PROPERTY_IMAGES: PropertyImage[] = [
     url: parrillaImg,
     alt: 'Sector de parrilla',
     description: 'Patio seco con parrilla y sector de lavadero independiente.',
+  },
+  {
+    id: 'img-10',
+    title: 'Planos Terreno',
+    category: 'planos',
+    categoryLabel: 'Planos',
+    url: planoTerrenoImg,
+    alt: 'Planos terreno',
+    description: 'Planos terreno FR2 199 m2.',
+  },
+  {
+    id: 'img-11',
+    title: 'Planos Vivienda',
+    category: 'planos',
+    categoryLabel: 'Planos',
+    url: planoViviendaImg,
+    alt: 'Planos Vivienda',
+    description: 'Planos vivienda.',
   }
 ];
 

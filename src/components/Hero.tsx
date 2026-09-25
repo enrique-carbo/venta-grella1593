@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenVisitModal, onOpenDossierModal
 
             <div className="border-l-2 border-black pl-5 py-1.5 space-y-2">
               <p className="text-stone-700 leading-relaxed font-serif italic text-lg">
-                &ldquo;Una propiedad integral que combina el confort de una vivienda moderna de 2 dormitorios, cochera techada y el potencial de un local comercial propio a la calle.&rdquo;
+                &ldquo;Una propiedad integral que combina el confort de una vivienda familiar de 2 dormitorios, cochera techada y el potencial de un local comercial propio a la calle.&rdquo;
               </p>
               <p className="text-xs text-stone-500 font-sans tracking-wide">
                 Ideal para familias que buscan vivir y tener su propio negocio sin pagar alquiler, o inversores que buscan doble renta asegurada.

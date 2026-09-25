@@ -1,7 +1,7 @@
 export interface PropertyImage {
   id: string;
   title: string;
-  category: 'all' | 'exterior' | 'local' | 'casa' | 'dormitorios' | 'cochera';
+  category: 'all' | 'exterior' | 'local' | 'casa' | 'dormitorios' | 'cochera' | 'planos';
   categoryLabel: string;
   url: string;
   alt: string;

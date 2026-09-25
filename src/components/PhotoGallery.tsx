@@ -24,6 +24,7 @@ export const PhotoGallery: React.FC<PhotoGalleryProps> = ({
     { id: 'casa', label: 'Casa Residencial' },
     { id: 'dormitorios', label: 'Dormitorios' },
     { id: 'cochera', label: 'Cochera & Patio' },
+    { id: 'planos', label: 'Planos'}
   ];
 
   const filteredImages = activeCategory === 'all'

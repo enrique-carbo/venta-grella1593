@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { X, Printer, Download, Check, MapPin, Phone, MessageCircle } from 'lucide-react';
 import { PROPERTY_INFO, PROPERTY_UNITS, AMENITIES } from '../data/propertyData';
-import facadeImg from '../assets/images/Vivienda-LocalComercial.jpeg';
+import facadeImg from '../assets/images/Grella1593-mb1.jpeg';
 
 interface DossierModalProps {
   isOpen: boolean;
