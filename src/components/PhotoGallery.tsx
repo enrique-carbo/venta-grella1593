@@ -18,7 +18,7 @@ export const PhotoGallery: React.FC<PhotoGalleryProps> = ({
   const [isZoomed, setIsZoomed] = useState(false);
 
   const categories = [
-    { id: 'all', label: 'Todas las Fotos (09)' },
+    { id: 'all', label: 'Todas las Fotos' },
     { id: 'exterior', label: 'Fachada & Exterior' },
     { id: 'local', label: 'Local Comercial' },
     { id: 'casa', label: 'Casa Residencial' },

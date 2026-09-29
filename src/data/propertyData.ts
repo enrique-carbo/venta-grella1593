@@ -9,8 +9,10 @@ import kitchenImg from '../assets/images/Grella1593-Cocina.jpg';
 import bedroomImg from '../assets/images/dormitorio-anterior.jpg';
 import bedroomImg2 from '../assets/images/dormitorio-posterior1.jpg';
 import bano from '../assets/images/bano.jpg';
+import bano1 from '../assets/images/banio.jpg';
 import garagePatioImg from '../assets/images/Grella1593-CocheraInterior1.jpg';
 import parrillaImg from '../assets/images/parrilla.jpg';
+import parrillaImg1 from '../assets/images/parrilla_patio.jpg';
 import comedorImg from '../assets/images/comedor.jpg';
 import planoTerrenoImg from '../assets/images/plano_terreno.jpg';
 import planoViviendaImg from '../assets/images/plano_vivienda_sm.jpg';
@@ -139,6 +141,15 @@ export const PROPERTY_IMAGES: PropertyImage[] = [
     description: 'Revestimiento cerámico, ducha, sanitarios.',
   },
   {
+    id: 'img-8.1',
+    title: 'Baño Completo',
+    category: 'casa',
+    categoryLabel: 'Casa Residencial',
+    url: bano1,
+    alt: 'Baño completo',
+    description: 'Revestimiento cerámico, ducha, sanitarios.',
+  },
+  {
     id: 'img-9',
     title: 'Detalle de Patio & Churrasquera',
     category: 'cochera',
@@ -146,6 +157,15 @@ export const PROPERTY_IMAGES: PropertyImage[] = [
     url: parrillaImg,
     alt: 'Sector de parrilla',
     description: 'Patio seco con parrilla y sector de lavadero independiente.',
+  },
+  {
+    id: 'img-9.1',
+    title: 'Depósito & Churrasquera',
+    category: 'cochera',
+    categoryLabel: 'Cochera y Patio',
+    url: parrillaImg1,
+    alt: 'Sector de parrilla',
+    description: 'Patio seco con parrilla y depósito para guardado.',
   },
   {
     id: 'img-10',
